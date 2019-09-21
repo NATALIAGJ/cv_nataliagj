@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <img src="imagen avatar.png" alt="">
+      <svg width="800" height="800">
+        <circle r="150" cx="30%" cy="30%" fill="#6195ed"/>
+        <circle r="70" cx="30%" cy="20%" fill="#f7cbba"/>
+        <!-- aca va el cuerpo-->
+        <rect width="25" height="100" x="28.4%" y="25%" fill="#f7cbba"/>
+        <rect width="25" height="100" x="28.4%" y="25%" fill="#423e4b"/>
+        <rect width="140" height="100" x="21.3%" y="32.2%" fill="#acdcdc" rx="7" ry="7"/>
+        <circle cx="30%" cy="39%" r="12" fill="#d5eded"></circle>
+        <rect width="148" height="8" x="20.8%" y="44.7%" fill="#aeafb0" rx="7" ry="7"/>
+        <path d="M167,365 a4,1.4 0 0,0 145,0" fill="#686471" />
+        <defs>
+            <circle id="myCircle" cx="0" cy="0" r="5" />
+        
+            <linearGradient id="myGradient" gradientTransform="rotate(90)">
+              <stop offset="20%" stop-color="gold" />
+              <stop offset="90%" stop-color="red" />
+            </linearGradient>
+          </defs>
+         
+          <!-- using my graphical objects -->
+          <use x="5" y="5" xlink:href="#myCircle" fill="url('#myGradient')" />
+        
+      </svg>
+    </main>
+  </body>
+</html>
