@@ -1,0 +1,30 @@
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.card {
+    height: 640px;
+    margin: 25px;
+}
+
+.card_content {
+    padding: 50px;
+}
+.card_image {
+    float: left;
+    margin-right: 50px;
+    width: 180px;
+}
+
+.card_title {
+    font-size: 4rem;
+}
+
+.card_paragraph {
+    color: #8e8e8e;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    margin-top: 30px;
+}
