@@ -1,0 +1,28 @@
+* {
+    background: #e8f2fa;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.card_content {
+    padding: 30px;
+}
+
+.card_image {
+    margin-top: 10px;
+    float: left;
+}
+
+.card_title {
+    color: #4697ce;
+}
+
+.card_paragraph {
+    font-size: 0.8rem;
+    color: #7c7e7f;
+    font-weight: bold;
+}
+
+.top {
+    margin: 10px 0px 0px 30px;
+}

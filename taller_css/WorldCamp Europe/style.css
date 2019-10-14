@@ -1,0 +1,54 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.card_one {
+    background: #272425;
+    height: 300px;
+}
+.card_image {
+    margin-top: 20px;
+}
+
+.card_title {
+    text-transform: uppercase;
+    color: #cc9966;
+}
+
+.card_title_two {
+    color: #a5a3a5;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.center_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_two {
+    background: #f1e4d5;
+    height: 80px;
+}
+
+.card_three {
+    background: #e7ab45;
+    color: #fff;
+    height: 80px;
+    text-align: center;
+}
+
+.card_four {
+    background: #68460d;
+    color: #fff;
+    height: 80px;
+}
+
+.card_five {
+    background: #cc9966;
+    color: #fff;
+    height: 80px;
+}
